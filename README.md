@@ -11,6 +11,12 @@
 - 사용자의 값 입출력시 `@woowacourse/mission-utils`에서 제공하는 `Console API`를 사용하여 구현했는가?  
   (`Console.readLineAsync()`와 `Console.print()`를 활용)
 
+### 1주차 피드백 반영
+
+- 이름을 지을 때 충분히 의도를 드러냈는가?
+- JavaScript에서 제공하는 API를 충분히 활용했는가?
+- PR을 만든 후에 이를 닫지 말고 추가 커밋을 할 수 있도록 했는가?
+
 <br/>
 
 ## 고민 포인트 (마주한 문제 해결 과정) 정리
@@ -25,7 +31,7 @@ Wiki에 기록하였습니다. 👉🏻 <a href="https://github.com/SangYoonLee1
 
 1. 사용자에게 경주할 자동차 이름 목록을 입력받는다.
 
-   - 예: pobi,woni,jun
+   - 예: pobi, woni, jun
 
 2. 자동차 이름들을 검증하고, 각 자동차 객체(또는 기록 구조)를 생성한다.
 3. 사용자에게 시도할 횟수를 입력받는다.
@@ -91,9 +97,5 @@ Wiki에 기록하였습니다. 👉🏻 <a href="https://github.com/SangYoonLee1
 
 - 최종 우승자 출력
   - "최종 우승자 : {이름1, 이름2,...}" 형식으로 출력한다.
-
-<br/>
-
-
 
 <br/>
