@@ -12,3 +12,17 @@ export function validateCarNames(carNamesArray) {
     }
   });
 }
+
+export function validateTryCount(tryCountStr) {
+  if (tryCountStr !== "string" || tryCountStr.trim() === "") {
+    throw new Error("시도 횟수가 정확히 입력되지 않았습니다.");
+  }
+
+  const tryCountNum = Number(tryCountStr);
+
+  if (!Number.isInteger(num) || num < 1) {
+    throw new Error("시도 횟수는 1 이상의 정수여야 합니다.");
+  }
+
+  return tryCountNum;
+}
